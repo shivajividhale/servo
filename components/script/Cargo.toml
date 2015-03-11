@@ -67,6 +67,9 @@ git = "https://github.com/servo/string-cache"
 [dependencies.string_cache_macros]
 git = "https://github.com/servo/string-cache"
 
+[dependencies.websocket]
+git = "https://github.com/cyderize/rust-websocket.git"
+
 [dependencies]
 encoding = "0.2"
 url = "0.2.16"
@@ -74,3 +77,4 @@ time = "0.1.12"
 bitflags = "*"
 rustc-serialize = "*"
 libc = "*"
+websocket = "~0.10.5"
